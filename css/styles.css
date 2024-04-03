@@ -1,0 +1,55 @@
+:root {
+
+
+    --primary-font: "Roboto", sans-serif;
+    --title-font: "Oswald", sans-serif;
+    --background-color: #FFF;
+    --primary-black-color: #434455;
+    --primary-white-color: #ffffff;
+    --primary-accent-color: #4D5AE5;
+    --secondary-accent-color: #0288d1;
+    --active-link-color: #404BBF
+;
+}
+
+body {
+    font-family: var(--primary-font);
+    color: var(--primary-black-color);
+    background-color: var(--background-color);
+}
+
+a:hover {
+    color: var(--primary-accent-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+.filter ul li {
+    display: inline-block;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 2px 1px rgba(0, 0, 0, 0.08),
+    0 3px 1px rgba(0, 0, 0, 0.10);
+}
+
+.filter ul li button {
+    background-color: #F4F4FD;
+    padding: 8px 16px; /* Adjust padding as needed */
+    text-align: center; /* Inner alignment */
+    width: 116px; /* Width */
+    height: 48px; /* Height */
+    gap: 0px; /* Gap */
+    border-radius: 4px; /* Border radius */
+    border: 1px solid transparent; /* Border */
+}
+
+
+.filter ul li button:hover {
+    background-color: #E7E9FC;
+    border: 1px var(--active-link-color) solid;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 1px 1px rgba(0, 0, 0, 0.08),
+    0 3px 1px rgba(0, 0, 0, 0.1); /* Drop shadow */
+    transition: box-shadow 0.3s ease; /* Add transition effect */
+}
