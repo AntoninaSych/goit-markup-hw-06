@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
 :root {
-
-
+    --logo-font: 'Raleway', sans-serif;
     --primary-font: "Roboto", sans-serif;
     --title-font: "Oswald", sans-serif;
     --background-color: #FFF;
     --primary-black-color: #434455;
-    --primary-white-color: #ffffff;
-    --primary-accent-color: #4D5AE5;
+
     --secondary-accent-color: #0288d1;
-    --active-link-color: #404BBF
-;
+    --ocean: #404BBF;
+    --navi-blue: #2E2F42;
+    --cloud: #F4F4FD;
+    --iris: #4D5AE5;
+}
+
+
+header * {
+    display: inline-block;
 }
 
 body {
@@ -18,12 +25,49 @@ body {
     background-color: var(--background-color);
 }
 
-a:hover {
-    color: var(--primary-accent-color);
+h1 {
+    font-family: var(--primary-font);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
+
+h2 {
+    font-family: var(--primary-font);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+h3 {
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
 
 li {
     list-style-type: none;
+}
+
+button {
+    font-family: var(--primary-font);
+    color: #fff;
+    background-color: var(--iris);
+    cursor: pointer;
+}
+
+
+a:hover {
+    color: var(--iris);
+    cursor: pointer;
 }
 
 .filter ul li {
@@ -42,14 +86,84 @@ li {
     gap: 0px; /* Gap */
     border-radius: 4px; /* Border radius */
     border: 1px solid transparent; /* Border */
+    color: var(--iris);
+    font-weight: bold;
 }
 
 
 .filter ul li button:hover {
     background-color: #E7E9FC;
-    border: 1px var(--active-link-color) solid;
+    border: 1px var(--ocean) solid;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12),
     0 1px 1px rgba(0, 0, 0, 0.08),
     0 3px 1px rgba(0, 0, 0, 0.1); /* Drop shadow */
     transition: box-shadow 0.3s ease; /* Add transition effect */
+}
+
+.portfolio {
+    width: 1128px;
+    height: 420px
+    top: 288px;
+    left: 156px;
+    border: 1px solid #ccc;
+}
+
+.portfolio ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.portfolio ul li {
+    display: inline-block;
+    width: 360px;
+    height: 420px;
+    top: 288px;
+    left: 540px;
+    border: 1px solid black;
+}
+
+.portfolio ul li a img {
+    width: 360px;
+    height: 300px;
+}
+
+footer {
+    background-color: var(--navi-blue);
+}
+
+
+header nav ul {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+header nav a {
+    color: var(--navi-blue);
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--iris);
+}
+
+.logo span {
+    color: var(--navi-blue);
+}
+
+footer {
+    color: #fff;
+}
+
+footer .logo span {
+    color: #fff;
 }
