@@ -13,7 +13,6 @@
     --iris: #4D5AE5;
 }
 
-
 header * {
     display: inline-block;
 }
@@ -61,6 +60,7 @@ button {
     color: #fff;
     background-color: var(--iris);
     cursor: pointer;
+    border-radius: 4px;
 }
 
 
