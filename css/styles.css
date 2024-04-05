@@ -1,5 +1,4 @@
 
- 
 :root {
     --iris: #4d5ae5;
     --ocean: #404bbf;
@@ -45,6 +44,7 @@ h3 {
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
 
 body {
@@ -183,31 +183,15 @@ address li:active {
     text-decoration: none;
 }
 
-
 .team {
     text-align: center;
 }
-
 
 footer .logo span {
     color: #fff;
 }
 
-.filter button {
-    border: 1px solid var(--cornflower);
-    padding: 12px 24px;
-    background-color: var(--cloud);
-    color: var(--ocean);
-}
-
-.filter button:hover {
-    border: 1px solid var(--cornflower);
-    padding: 12px 24px;
-    background-color: var(--ocean);
-    color: var(--cloud);
-}
-
-nav ul li a {
+.filter a {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -216,9 +200,10 @@ nav ul li a {
     color: var(--navy-blue);
 }
 
-nav ul li a:hover,
-nav ul li a:active {
+.filter a:hover,
+.filter a:active {
     color: var(--iris);
+    text-decoration: none;
 }
 
 .visuality-hidden {
@@ -234,7 +219,7 @@ nav ul li a:active {
     overflow: hidden;
 }
 
-.portfolio li {
+.li {
     color: var(--slate);
     font-weight: 400;
     font-size: 16px;
@@ -242,20 +227,27 @@ nav ul li a:active {
     letter-spacing: 0.02em;
 }
 
+.li img {
+    width: 360px;
+    height: 300px;
+}
+
 footer {
     color: var(--cloud);
     background-color: var(--navy-blue)
 }
 
-footer p{
+footer p {
     color: var(--cloud);
 }
+
 .solutions {
     background-color: var(--navy-blue);
     text-align: center;
 }
 
-.solutions h1 {
+
+h1 {
     font-family: var(--title-font);
     font-weight: 700;
     font-size: 56px;
@@ -264,3 +256,37 @@ footer p{
     text-align: center;
     color: var(--white);
 }
+
+button {
+    border: 1px solid var(--cornflower);
+    padding: 12px 24px;
+    background-color: var(--cloud);
+    color: var(--ocean);
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+}
+
+button:hover {
+    border: 1px solid var(--cornflower);
+    padding: 12px 24px;
+    color: var(--cloud);
+    background-color: var(--ocean);
+}
+
+/*index button*/
+.solutions button{
+    color: var(--cloud);
+    background-color: var(--ocean);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--iris);
+    border: 0px;
+}
+.solutions button:hover{
+    color: var(--ocean);
+    background-color: var(--cloud);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+/*index button*/
