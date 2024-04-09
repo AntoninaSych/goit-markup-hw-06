@@ -17,6 +17,15 @@
     --title-font: "Oswald", sans-serif;
     --logo-font: 'Raleway', sans-serif;
 }
+h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     margin: 0;
+ }
+
 
 h1 {
     font-family: var(--title-font);
@@ -53,9 +62,15 @@ body {
     font-size: 16px;
     line-height: 140%;
     color: var(--navy-blue);
+    margin: 0;
+    padding: 0;
 }
 
-p {
+img{
+    display: block;
+}
+
+p {  margin: 0;
     font-family: inherit;
     font-weight: 400;
     font-size: 16px;
@@ -149,24 +164,9 @@ li {
     color: var(--ocean);
 }
 
-address {
-    font-style: normal;
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--slate);
+nav{
+    display: flex;
 }
-
-address li:hover {
-    color: var(--ocean);
-}
-
-address li:active {
-    font-weight: 400;
-}
-
 .logo {
     font-family: var(--logo-font);
     font-weight: 800;
@@ -175,6 +175,9 @@ address li:active {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
+
+    flex-wrap: wrap;
+    margin-top: 17px;
 }
 
 .logo span {
@@ -247,8 +250,22 @@ footer p {
 .solutions {
     background-color: var(--navy-blue);
     text-align: center;
+
+
+}
+.solutions div {
+    display: flex;
+    flex-direction: column;
+    height: 33.5rem;
+    justify-content: center;
+    align-items:center;
+    gap:10%
 }
 
+.solutions .container button{
+    width: 169px;
+    height:56px;
+}
 
 h1 {
     font-family: var(--title-font);
@@ -293,3 +310,126 @@ button:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 /*index button*/
+
+.container {
+    margin: 0 auto;
+    padding: 0 16px;
+    width: 1158px;
+    flex-shrink: 0;
+}
+
+header .container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap:10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    gap:40px;
+}
+
+address ul{
+    font-style: normal;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    gap:10px;
+}
+
+
+address li:hover {
+    color: var(--ocean);
+}
+
+address li:active {
+    font-weight: 400;
+}
+
+.vision {
+    display: flex;
+    gap:5%;
+    padding: 5%;
+}
+
+.benefits{
+    display: flex;
+    gap:12px;
+    padding:72px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0;
+
+    list-style: none;
+
+}
+
+.benefits .item {
+    width: calc((100% - 32px) / 3)
+}
+
+
+.team-list{
+    margin-top: 72px;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 127px;
+
+}
+
+.team-list .card{
+    display: inline-flex;
+    padding-bottom: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-right: 19px;
+    width: calc((100%) / 4);
+    border-radius: 0px 0px 4px 4px;
+    background:   #FFF;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-list .card img{
+    margin-bottom: 32px ;
+}
+
+footer{
+    height: 312px;
+    flex-shrink: 0;
+}
+
+footer  .container{
+
+    /*margin-top: c*/
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    /*align-content: flex-start;*/
+
+    /*margin: 0  auto;*/
+}
+footer  .container a{
+    margin-top: 102px;
+
+}
+.footer-p{
+    width: 264px!important;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+
+}
+
