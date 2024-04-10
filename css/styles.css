@@ -196,6 +196,15 @@ footer .logo span {
     color: #fff;
 }
 
+.filter ul{
+    display: flex;
+    margin-top:96px;
+    margin-bottom: 72px;
+    gap:24px;
+    justify-content: center;
+
+}
+
 .filter a {
     font-family: inherit;
     font-weight: 500;
@@ -232,10 +241,56 @@ footer .logo span {
     line-height: 150%;
     letter-spacing: 0.02em;
 }
+.portfolio{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 0 120px 0;
+    list-style: none;
+
+}
+.portfolio .card { display: flex;
+    width: 359px;
+    height: 420px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+
+}
+
+.card-content{
+    border:1px solid var(--cornflower);
+    border-top:none;
+    padding: 32px 16px;
+}
 
 .portfolio img {
     width: 360px;
     height: 300px;
+    flex-shrink: 0;
+}
+
+.portfolio h3{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+
+}
+
+.portfolio p{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    margin-top: 5px;
 }
 
 footer {
@@ -364,7 +419,6 @@ address li:active {
     gap:12px;
     padding:72px 0;
 
-    display: flex;
     flex-wrap: wrap;
 
     margin: 0;
