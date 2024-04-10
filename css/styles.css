@@ -36,6 +36,11 @@ h1 {
     color: var(--navy-blue);
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+}
+
 h2 {
     font-family: var(--title-font);
     font-weight: 700;
@@ -143,29 +148,10 @@ li {
     list-style-type: none;
 }
 
-.menu a{
-    font-family: var(--primary-font);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    cursor: pointer;
-
-}
-
-.menu a:hover {
-    text-decoration: none!important;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: var(--ocean);
-}
 
 nav{
     display: flex;
+    align-items: center;
 }
 .logo {
     font-family: var(--logo-font);
@@ -175,9 +161,8 @@ nav{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-
+    margin-right: 40px;
     flex-wrap: wrap;
-    margin-top: 17px;
 }
 
 .logo span {
@@ -303,10 +288,11 @@ footer p {
 }
 
 .solutions {
-    background-color: var(--navy-blue);
     text-align: center;
-
-
+    background-color: var(--navy-blue);
+}
+.solutions  .container{
+    background-color: var(--navy-blue);
 }
 .solutions div {
     display: flex;
@@ -374,19 +360,17 @@ button:hover {
 }
 
 header .container {
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
-    gap:10%;
     align-items: center;
-    justify-content: center;
 }
 
 .menu {
     display: flex;
     gap:40px;
 }
-
+address{
+    margin-left: auto;
+}
 address ul{
     font-style: normal;
     cursor: pointer;
@@ -396,7 +380,9 @@ address ul{
     display: flex;
     letter-spacing: 0.02em;
     color: var(--slate);
-    gap:10px;
+    gap:40px;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -460,10 +446,15 @@ margin-right: 19px;
 footer{
     height: 312px;
     flex-shrink: 0;
+    background-color: var(--navy-blue);
 }
 
-footer  .container{
 
+
+
+
+footer  .container{
+    background-color: var(--navy-blue);
     /*margin-top: c*/
     display: flex;
     flex-direction: column;
@@ -487,3 +478,28 @@ footer  .container a{
 
 }
 
+
+.menu a{
+    display: block;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    cursor: pointer;
+    padding: 24px 0;
+
+
+}
+
+.menu a:hover {
+    text-decoration: none!important;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 24px 0;
+    letter-spacing: 0.02em;
+    color: var(--ocean);
+}
