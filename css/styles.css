@@ -17,14 +17,15 @@
     --title-font: "Oswald", sans-serif;
     --logo-font: 'Raleway', sans-serif;
 }
+
 h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
-     margin: 0;
- }
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
 
 
 h1 {
@@ -36,7 +37,7 @@ h1 {
     color: var(--navy-blue);
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
@@ -71,11 +72,12 @@ body {
     padding: 0;
 }
 
-img{
+img {
     display: block;
 }
 
-p {  margin: 0;
+p {
+    margin: 0;
     font-family: inherit;
     font-weight: 400;
     font-size: 16px;
@@ -149,10 +151,11 @@ li {
 }
 
 
-nav{
+nav {
     display: flex;
     align-items: center;
 }
+
 .logo {
     font-family: var(--logo-font);
     font-weight: 800;
@@ -181,11 +184,11 @@ footer .logo span {
     color: #fff;
 }
 
-.filter ul{
+.filter ul {
     display: flex;
-    margin-top:96px;
+    margin-top: 96px;
     margin-bottom: 72px;
-    gap:24px;
+    gap: 24px;
     justify-content: center;
 
 }
@@ -226,7 +229,8 @@ footer .logo span {
     line-height: 150%;
     letter-spacing: 0.02em;
 }
-.portfolio{
+
+.portfolio {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
@@ -235,7 +239,9 @@ footer .logo span {
     list-style: none;
 
 }
-.portfolio .card { display: flex;
+
+.portfolio .card {
+    display: flex;
     width: 359px;
     height: 420px;
     padding-bottom: 32px;
@@ -246,9 +252,9 @@ footer .logo span {
 
 }
 
-.card-content{
-    border:1px solid var(--cornflower);
-    border-top:none;
+.card-content {
+    border: 1px solid var(--cornflower);
+    border-top: none;
     padding: 32px 16px;
 }
 
@@ -258,7 +264,7 @@ footer .logo span {
     flex-shrink: 0;
 }
 
-.portfolio h3{
+.portfolio h3 {
     font-family: var(--primary-font);
     font-size: 20px;
     font-style: normal;
@@ -268,7 +274,7 @@ footer .logo span {
 
 }
 
-.portfolio p{
+.portfolio p {
     font-family: var(--primary-font);
     font-size: 16px;
     font-style: normal;
@@ -291,21 +297,23 @@ footer p {
     text-align: center;
     background-color: var(--navy-blue);
 }
-.solutions  .container{
+
+.solutions .container {
     background-color: var(--navy-blue);
 }
+
 .solutions div {
     display: flex;
     flex-direction: column;
     height: 33.5rem;
     justify-content: center;
-    align-items:center;
-    gap:10%
+    align-items: center;
+    gap: 10%
 }
 
-.solutions .container button{
+.solutions .container button {
     width: 169px;
-    height:56px;
+    height: 56px;
 }
 
 h1 {
@@ -338,18 +346,20 @@ button:hover {
 }
 
 /*index button*/
-.solutions button{
+.solutions button {
     color: var(--cloud);
     background-color: var(--ocean);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
     border: 0px;
 }
-.solutions button:hover{
+
+.solutions button:hover {
     color: var(--ocean);
     background-color: var(--cloud);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
+
 /*index button*/
 
 .container {
@@ -366,12 +376,14 @@ header .container {
 
 .menu {
     display: flex;
-    gap:40px;
+    gap: 40px;
 }
-address{
+
+address {
     margin-left: auto;
 }
-address ul{
+
+address ul {
     font-style: normal;
     cursor: pointer;
     font-weight: 400;
@@ -380,7 +392,7 @@ address ul{
     display: flex;
     letter-spacing: 0.02em;
     color: var(--slate);
-    gap:40px;
+    gap: 40px;
     margin: 0;
     padding: 0;
 }
@@ -396,14 +408,14 @@ address li:active {
 
 .vision {
     display: flex;
-    gap:5%;
+    gap: 5%;
     padding: 5%;
 }
 
-.benefits{
+.benefits {
     display: flex;
-    gap:12px;
-    padding:72px 0;
+    gap: 12px;
+    padding: 72px 0;
 
     flex-wrap: wrap;
 
@@ -418,7 +430,7 @@ address li:active {
 }
 
 
-.team-list{
+.team-list {
     margin-top: 72px;
     display: flex;
     padding-left: 0;
@@ -426,34 +438,31 @@ address li:active {
 
 }
 
-.team-list .card{
+.team-list .card {
     display: inline-flex;
     padding-bottom: 32px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-margin-right: 19px;
+    margin-right: 19px;
     width: calc((100%) / 4);
     border-radius: 0px 0px 4px 4px;
-    background:   #FFF;
+    background: #FFF;
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
-.team-list .card img{
-    margin-bottom: 32px ;
+.team-list .card img {
+    margin-bottom: 32px;
 }
 
-footer{
+footer {
     height: 312px;
     flex-shrink: 0;
     background-color: var(--navy-blue);
 }
 
 
-
-
-
-footer  .container{
+footer .container {
     background-color: var(--navy-blue);
     /*margin-top: c*/
     display: flex;
@@ -463,12 +472,14 @@ footer  .container{
 
     /*margin: 0  auto;*/
 }
-footer  .container a{
+
+footer .container a {
     margin-top: 102px;
 
 }
-.footer-p{
-    width: 264px!important;
+
+.footer-p {
+    width: 264px !important;
     font-family: var(--primary-font);
     font-size: 16px;
     font-style: normal;
@@ -479,7 +490,7 @@ footer  .container a{
 }
 
 
-.menu a{
+.menu a {
     display: block;
     font-family: var(--primary-font);
     font-weight: 500;
@@ -494,7 +505,7 @@ footer  .container a{
 }
 
 .menu a:hover {
-    text-decoration: none!important;
+    text-decoration: none !important;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
