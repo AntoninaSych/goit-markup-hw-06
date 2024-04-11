@@ -181,6 +181,10 @@ nav {
     text-align: center;
     background: var(--cloud);
 }
+ .logo{
+     display: block;
+    margin-bottom: 16px;
+}
 
 footer .logo span {
     color: #fff;
@@ -189,12 +193,14 @@ footer .logo span {
 .filter{
     padding-top: 96px;
     padding-bottom: 72px;
+
 }
 
 .filter ul {
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 .filter a {
