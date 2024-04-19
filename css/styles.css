@@ -522,12 +522,98 @@ footer .container a {
     letter-spacing: 0.02em;
     color: var(--ocean);
 }
-
-.vision-icon {
-    display: inline-block;
-    width: 64px;
+.vision-div{
+    height: 112px;
+    width: 100%;
+    background-color: #F4F4FD ;
+    position: relative;text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.vision-icon{
     height: 64px;
-    stroke-width: 1px;
-    stroke: #4D5AE5;
-    fill: #4D5AE5;
+}
+
+
+.social-wrapper {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-color: var( --iris);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-social-wrapper {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-color: var( --iris);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.footer-social-wrapper:hover{
+    background-color: var(--green);
+    cursor: pointer;
+}
+
+.social-main{
+    margin-top: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap:24px;
+    align-content: center;
+}
+
+.customers{
+    /*display: flex;*/
+    /*align-items: center;*/
+}
+
+.customers h2 {
+    margin-top: 120px;
+    margin-bottom: 72px;
+    text-align: center;
+    width: 100%;
+}
+
+.customers-wrapper{
+    margin-top: 72px;
+    margin-bottom: 120px;
+    display: inline-flex;
+    gap:24px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.customer-card{
+    width: 168px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid var(--light-slate);
+}
+
+.customer-card:hover {
+    border: 1px solid var(--ocean);
+    color: var(--ocean);
+}
+
+.customer-icon:hover {
+    fill: var(--ocean)!important;
+}
+.customer-icon path:hover {
+    fill: var(--ocean)!important;
 }
