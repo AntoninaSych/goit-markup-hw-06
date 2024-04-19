@@ -304,12 +304,14 @@ footer p {
 
 .solutions {
     text-align: center;
-    background-color: var(--navy-blue);
+
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),url('../images/people_in_the_office.jpeg');
+
 }
 
-.solutions .container {
-    background-color: var(--navy-blue);
-}
 
 .solutions div {
     padding: 188px  0;
@@ -317,6 +319,7 @@ footer p {
     justify-content: center;
     align-items: center;
     gap: 10%
+
 }
 
 .solutions .container button {
