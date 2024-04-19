@@ -370,8 +370,8 @@ button:hover {
 }
 
 .solutions button:hover {
-    color: var(--ocean);
-    background-color: var(--cloud);
+    color: var(--cloud);
+    background-color: var(--ocean);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
@@ -596,6 +596,7 @@ footer .container a {
     align-items: center;
     justify-content: center;
 }
+
 .customer-card{
     width: 168px;
     height: 88px;
@@ -604,16 +605,12 @@ footer .container a {
     justify-content: center;
     align-content: center;
     border: 1px solid var(--light-slate);
+    fill: var(--light-slate);
 }
 
 .customer-card:hover {
     border: 1px solid var(--ocean);
     color: var(--ocean);
+    cursor: pointer; fill: var(--ocean)!important;
 }
 
-.customer-icon:hover {
-    fill: var(--ocean)!important;
-}
-.customer-icon path:hover {
-    fill: var(--ocean)!important;
-}
