@@ -522,3 +522,12 @@ footer .container a {
     letter-spacing: 0.02em;
     color: var(--ocean);
 }
+
+.vision-icon {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    stroke-width: 1px;
+    stroke: #4D5AE5;
+    fill: #4D5AE5;
+}
