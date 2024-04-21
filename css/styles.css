@@ -122,6 +122,7 @@ button {
 button:hover {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--ocean);
+    transition: background-color var(--trns-fast);
 }
 
 a {
@@ -379,6 +380,8 @@ button:hover {
     color: var(--cloud);
     background-color: var(--ocean);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    transition-property: background-color, box-shadow;
+    transition-duration:  var(--trns-fast);
 }
 
 /*index button*/
@@ -423,8 +426,8 @@ address ul {
 
 address li:hover {
     color: var(--ocean);
-    transition: var(--trns-fast);
     transition-property: color;
+    transition: var(--trns-fast);
     cursor: pointer;
 }
 
@@ -534,6 +537,7 @@ footer {
     padding: 24px 0;
     letter-spacing: 0.02em;
     color: var(--ocean);
+    transition: color var(--trns-fast);
 }
 .vision-div{
     height: 112px;
@@ -663,6 +667,7 @@ footer {
 .header-menu-link:hover,
 .header-menu-link:focus {
     color: rgb(var(--ocean));
+    transition: color var(--trns-fast);
 }
 .header-menu-link::after {
     content: '';
