@@ -186,7 +186,6 @@ nav {
 }
  .logo{
      display: block;
-    margin-bottom: 16px;
 }
 
 footer .logo span {
@@ -217,7 +216,9 @@ footer .logo span {
 }
 
 .filter a:hover,
-.filter a:active {
+.filter a:active,
+
+{
     /*color: var(--iris);*/
     text-decoration: none;
 
@@ -308,7 +309,7 @@ footer p {
 
 .solutions {
     text-align: center;
-
+    padding: 188px  0;
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -318,7 +319,7 @@ footer p {
 
 
 .solutions div {
-    padding: 188px  0;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -357,7 +358,8 @@ button {
     letter-spacing: 0.04em;
 }
 
-button:hover {
+button:hover,
+button:focus {
     border: 1px solid var(--cornflower);
     padding: 12px 24px;
     color: var(--cloud);
@@ -376,7 +378,8 @@ button:hover {
     border: 0px;
 }
 
-.solutions button:hover {
+.solutions button:hover,
+.solutions button:focus  {
     color: var(--cloud);
     background-color: var(--ocean);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -562,18 +565,18 @@ footer {
     background-color: var( --iris);
     align-items: center;
     justify-content: center;
-    margin-bottom: 22px;
     border-radius: 50%;
 }
-.social-footer h5 {
+.social-footer p {
     color: var(--WHITE);
     font-family: var(--primary-font);
-    margin-bottom: 16px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    margin-bottom: 16px;
+
 }
 
 .footer-wrapper{
@@ -586,7 +589,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 22px;
     gap: 16px;
     align-content: center;
     background-color:inherit;
@@ -609,20 +611,19 @@ footer {
 }
 
 .customers{
-    /*display: flex;*/
-    /*align-items: center;*/
+    padding-top: 120px;
+    padding-bottom:120px;
 }
 
 .customers h2 {
-    margin-top: 120px;
+
     margin-bottom: 72px;
     text-align: center;
     width: 100%;
 }
 
 .customers-wrapper{
-    margin-top: 72px;
-    margin-bottom: 120px;
+
     display: inline-flex;
     gap:24px;
     align-content: center;
@@ -641,12 +642,18 @@ footer {
     fill: var(--light-slate);
 }
 
-.customer-card:hover {
+.customer-card:hover, .customer-card:focus{
     border: 1px solid var(--ocean);
     color: var(--ocean);
     cursor: pointer; fill: var(--ocean)!important;
     transition-property: color;
     transition: var(--trns-fast);
+}
+.customer-card a{
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
 }
 
 .header-menu-link {
@@ -673,9 +680,10 @@ footer {
     content: '';
     position: absolute;
     left: 0;
-    bottom: 5px;
+    bottom: -1px;
     display: block;
     width: 100%;
+    color: var(--ocean);
     height: 4px;
     border-radius: 2px;
     background-color: transparent;
@@ -692,7 +700,8 @@ footer {
 
 }
 
-.header-menu-link:hover::after {
+.header-menu-link:hover::after,
+.header-menu-link:focus::after{
     content: '';
     margin-top: 20px;
     background-color: var(--ocean);
@@ -723,13 +732,11 @@ footer {
     transition: 400ms ease-in 0s, 300ms var(--trns-fast);
     transition-property: transform, filter;
 }
-.card:hover .overlay {
+.card:hover .overlay,
+.card:focus .overlay{
     transform: translateY(0);
     filter: blur(0px);
 }
-
-
-
 
 .backdrop {
     position: fixed;
@@ -775,8 +782,15 @@ footer {
     position: absolute;
     top: 24px;
     right: 24px;
+    box-shadow:
+        0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
-
+.modal-btn svg{
+    background-color:var( --cornflower);
+    fill: var(--naviblue);
+}
 .modal-btn:hover {
     display: flex;
     padding: 5px;
@@ -786,6 +800,7 @@ footer {
     top: 24px;
     right: 24px;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .modal-btn-icon {
