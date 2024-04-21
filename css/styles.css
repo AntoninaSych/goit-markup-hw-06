@@ -17,7 +17,7 @@
     --title-font: "Oswald", sans-serif;
     --logo-font: 'Raleway', sans-serif;
     --trns-slow: 600ms ease-out;
-    --trns-fast: 300ms ease-in;
+    --trns-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h1,
@@ -217,8 +217,10 @@ footer .logo span {
 
 .filter a:hover,
 .filter a:active {
-    color: var(--iris);
+    /*color: var(--iris);*/
     text-decoration: none;
+
+
 }
 
 .visuality-hidden {
@@ -359,6 +361,9 @@ button:hover {
     padding: 12px 24px;
     color: var(--cloud);
     background-color: var(--ocean);
+    transition: var(--trns-fast);
+    transition-property: background, color;
+    cursor: pointer;
 }
 
 /*index button*/
@@ -418,6 +423,9 @@ address ul {
 
 address li:hover {
     color: var(--ocean);
+    transition: var(--trns-fast);
+    transition-property: color;
+    cursor: pointer;
 }
 
 address li:active {
@@ -466,6 +474,15 @@ address li:active {
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-list .card:hover{
+    box-shadow:
+            0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+            0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+            0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
+     transition: box-shadow var(--trns-fast);
 }
 
 .team-card-content{
@@ -568,10 +585,13 @@ footer {
     margin-bottom: 22px;
     gap: 16px;
     align-content: center;
+    background-color:inherit;
 
 }
 .footer-social-wrapper .social-wrapper:hover{
     background-color: var(--green);
+    transition-property: background-color, color;
+    transition: var(--trns-fast);
     cursor: pointer;
 }
 
@@ -621,6 +641,8 @@ footer {
     border: 1px solid var(--ocean);
     color: var(--ocean);
     cursor: pointer; fill: var(--ocean)!important;
+    transition-property: color;
+    transition: var(--trns-fast);
 }
 
 .header-menu-link {
@@ -669,7 +691,7 @@ footer {
     content: '';
     margin-top: 20px;
     background-color: var(--ocean);
-    transition: background-color .5s;
+    transition: background-color var(--trns-fast);
 }
 
 .portfolio-box{
@@ -693,7 +715,7 @@ footer {
     color: var(--light, #fafafa);
     background-color: var(--ocean);
     opacity: 0.9;
-    transition: 400ms ease-in 0s, 300ms ease-in-out 600ms;
+    transition: 400ms ease-in 0s, 300ms var(--trns-fast);
     transition-property: transform, filter;
 }
 .card:hover .overlay {
@@ -708,7 +730,6 @@ footer {
     position: fixed;
     inset: 0;
     background: rgba(46, 47, 66, 0.4);
-
     visibility: visible;
     pointer-events: initial;
     transition: var(--trns-slow);
