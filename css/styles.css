@@ -567,6 +567,13 @@ footer {
     justify-content: center;
     border-radius: 50%;
 }
+.social-wrapper:hover {
+    background-color: var(--green);
+    transition-property: background-color, color;
+    transition: var(--trns-fast);
+    cursor: pointer;
+}
+
 .social-footer p {
     color: var(--WHITE);
     font-family: var(--primary-font);
