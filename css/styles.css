@@ -615,7 +615,8 @@ footer {
     background-color:inherit;
 
 }
-.footer-social-wrapper .social-wrapper:hover{
+.footer-social-wrapper a:hover,
+.footer-social-wrapper a:focus {
     background-color: var(--green);
     transition-property: background-color, color;
     transition: var(--trns-fast);
