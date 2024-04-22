@@ -696,7 +696,9 @@ footer {
     background-color: transparent;
 
 }
-
+.header-menu-link.current{
+    color:  var(--ocean);
+}
 .header-menu-link.current::after {
     content: '';
     display: block;
