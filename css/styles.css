@@ -440,7 +440,6 @@ address li:active {
 
 .vision {
     display: flex;
-    padding: 120px 0;
     gap:24px;
 }
 .vision h3{
@@ -450,11 +449,16 @@ address li:active {
 .benefits {
     display: flex;
     gap: 16px;  /* якщо 24 то не поміщається три картинки у рядок*/
-    padding: 0  0 120px 0;
+
     flex-wrap: wrap;
     margin: 0;
     list-style: none;
  }
+
+.section-benefits {
+    padding: 0  0 120px 0;
+}
+
 
 .benefits .item {
     width: calc((100% - 32px) / 3)
@@ -557,18 +561,28 @@ footer {
     height: 64px;
 }
 
-
-.social-wrapper {
+.section-vision{
+    padding: 120px 0;
+}
+.social-wrapper{
     width: 40px;
     height: 40px;
+}
+
+.social-wrapper a {
+    width: 100%;
+    height: 100%;
     display: flex;
     background-color: var( --iris);
     align-items: center;
     justify-content: center;
     border-radius: 50%;
 }
-.social-wrapper:hover {
-    background-color: var(--green);
+.social-wrapper a:hover,
+.social-wrapper a:focus {
+
+    background-color: var(--ocean);
+    border-color: var(--ocean);
     transition-property: background-color, color;
     transition: var(--trns-fast);
     cursor: pointer;
@@ -641,22 +655,21 @@ footer {
 .customer-card{
     width: 168px;
     height: 88px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    border: 1px solid var(--light-slate);
-    fill: var(--light-slate);
 }
 
-.customer-card:hover, .customer-card:focus{
+.customer-card a:hover, .customer-card a:focus{
     border: 1px solid var(--ocean);
     color: var(--ocean);
     cursor: pointer; fill: var(--ocean)!important;
     transition-property: color;
     transition: var(--trns-fast);
 }
-.customer-card a{
+.customer-card a{  display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid var(--light-slate);
+    fill: var(--light-slate);
     height: 100%;
     width: 100%;
     align-content: center;
