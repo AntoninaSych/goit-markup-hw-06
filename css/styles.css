@@ -833,3 +833,22 @@ footer {
 /* #endregion */
 
 
+/*form*/
+.icon-name{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 16px
+}
+
+.f-name-div{
+    position: relative;
+}
+.f-name-input{
+    padding-left: 34px;
+
+}
+.header-modal{
+
+}
+/*form*/
