@@ -859,8 +859,14 @@ footer {
     left: 34px;
     margin-top: 8px;
 }
+
+.field-wrapper {
+    width: 100%;
+}
+
 .field-wrapper input {
     height: 40px;
+    margin-top: 5px;
 
 }
 .field-wrapper :focus-within {
@@ -873,7 +879,6 @@ footer {
     margin-bottom: 8px;
     padding-left: 34px;
     border-radius: 4px;
-
     border: 1px solid var(--light-slate);
     line-height: 16px;
 
@@ -933,7 +938,7 @@ label{
     line-height: 14px; /* 116.667% */
     letter-spacing: 0.48px;
 }
-.form-group input{
+.modal-btn{
 
 }
 /*form*/
