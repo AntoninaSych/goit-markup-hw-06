@@ -874,6 +874,10 @@ footer {
     fill: var(--ocean);
 }
 
+input[type="checkbox"]:checked  .label-checkbox {
+    color: var(--ocean);
+    fill: var(--ocean);
+}
 
 .form-group {
     width: 100%;
@@ -894,7 +898,6 @@ label{
     text-align: center;
     margin-top: 72px;
     margin-bottom: 16px;
-
     font-family: var(--primary-font);
     font-size: 16px;
     font-style: normal;
@@ -913,7 +916,9 @@ label{
     font-weight: 400;
     line-height: 14px; /* 116.667% */
     letter-spacing: 0.48px;
-    margin-top: 5px;
+}
+.label-checkbox{
+    margin-top:5px;
 }
 
 .modal-wrapper{
@@ -924,12 +929,12 @@ label{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    padding-bottom:24px
+
 }
 
 .modal-submit-button {
     color: var(--cloud);
+    margin-top:24px;
     background-color: var(--ocean);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--iris);
