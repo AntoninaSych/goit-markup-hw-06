@@ -1043,18 +1043,23 @@ input[type='checkbox']:checked + .review-form-agreement-desc > .review-form-chec
         text-decoration-skip-ink: none;
     }
 .footer-form{
-    display: flex;flex-direction: row
+    display: flex;flex-direction: row;
+    /*align-items: center;*/
 }
 
 .footer-email{
     height: 40px;
     width: 263px;
-    margin-top: 16px;
+
+
+
     margin-right: 24px;
 }
 
 .footer-email input  {
     padding-left: 16px;
+    margin-top: 16px;
+    outline: transparent;
 }
 
 .footer-form button{
@@ -1064,7 +1069,7 @@ input[type='checkbox']:checked + .review-form-agreement-desc > .review-form-chec
     gap: 16px;
     background-color: var(--iris);
     color: var(--cloud);
-    height: 42px;justify-content: center;
+    height: 40px;justify-content: center;
     align-items: center;align-content: center;
     transform: translateY(100%);
     border: transparent;
@@ -1078,12 +1083,12 @@ input[type='checkbox']:checked + .review-form-agreement-desc > .review-form-chec
 
 .footer-form label{
 //styleName: Body Medium;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    color: var(--WHITE);
 
 }
 
