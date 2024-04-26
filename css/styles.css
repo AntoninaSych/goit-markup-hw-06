@@ -1022,16 +1022,23 @@ input[type='checkbox']:checked + .review-form-agreement-desc > .review-form-chec
     transition: var(--trns-fast);
 }
 
-.review-form-agreement-desc {
+.review-form-agreement-desc {  font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.04em;
     text-align: left;
-}
 
-.review-form-agreement-link{
-    color:  var(--iris);
-    text-decoration: underline;
-    text-decoration-skip-ink: none;
+}
+.review-form-agreement-desc>span {
+    transform: translateY(20%);
+}
+    .review-form-agreement-link{
+        color:  var(--iris);
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+    }
 }
