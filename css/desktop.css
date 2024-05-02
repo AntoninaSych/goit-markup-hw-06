@@ -1163,3 +1163,13 @@ margin-bottom: 8px;
     left:16px;
     transform: translateY(-50%);
 }
+
+
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
