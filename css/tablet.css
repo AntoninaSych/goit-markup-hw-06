@@ -49,4 +49,70 @@
 
         gap: 24px;
     }
+    .menu {
+        display: flex;
+        gap: 40px;
+    }
+
+    address {
+        margin-left: auto;
+    }
+
+    address ul {
+        font-style: normal;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        display: flex;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+        gap: 40px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    address li:hover {
+        color: var(--ocean);
+        transition-property: color;
+        transition: var(--trns-fast);
+        cursor: pointer;
+    }
+
+    address li:active {
+        font-weight: 400;
+    }
+
+    address {
+        margin-left: auto;
+    }
+
+    address ul {
+        font-style: normal;
+        cursor: pointer;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        display: flex;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+        gap: 40px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    address li:hover {
+
+        color: var(--ocean);
+        transition-property: color;
+        transition: var(--trns-fast);
+        cursor: pointer;
+    }
+
+    address li:active {
+        font-weight: 400;
+    }
+
 }
