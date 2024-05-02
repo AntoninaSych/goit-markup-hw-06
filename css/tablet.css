@@ -1,5 +1,52 @@
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
+
+@media screen and (min-width: 768px){
+    .container{
+        min-width: 468px;
+    }
+    .main-title {
+        margin-bottom: 48px;
+
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    .benefits-h2 {
+        display: block;
+        margin-bottom: 72px;
+    }
+    .benefits{
+
+        display: flex;
+        gap: 16px; /* якщо 24 то не поміщається три картинки у рядок*/
+        flex-wrap: wrap;
+        margin: 0;
+        list-style: none;
+    }
+
+    .section-vision{
+        padding: 120px 0;
+    }
+
+    .vision-div {
+        height: 112px;
+        width: 100%;
+        background-color: #F4F4FD;
+        position: relative;
+        text-align: center;
+        display: flex;  flex-direction: row!important;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .vision {
+        display: flex;
+        flex-direction: row!important;
+
+
+        gap: 24px;
     }
 }
