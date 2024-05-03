@@ -317,7 +317,8 @@ footer p {
 
 .solutions {
     text-align: center;
-    padding: 188px 0;
+    /*padding: 188px 0;*/
+    padding: 72px 0;
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -408,8 +409,7 @@ button:focus {
     margin: 0 auto;
     padding: 0 16px;
     min-width: 320px;
-    max-width: 767px;
-    /*width: 1158px;*/
+     /*width: 1158px;*/
     flex-shrink: 0;
 }
 
@@ -1183,16 +1183,6 @@ margin-bottom: 8px;
     transform: translateY(-50%);
 }
 
-.container{
-
-        min-width: 320px;
-
-    max-width: 767px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
 @media screen and (min-width: 1158px) {
