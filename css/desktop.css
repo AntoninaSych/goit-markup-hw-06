@@ -3,15 +3,29 @@
         min-width: 1158px;
         max-width: 4000px;
     }
-    .vision {
-        display: flex;
-        flex-direction: row!important;
-    }
     .team-list .card {
         margin-right: 24px;
         width: calc((100%) / 4);
     }
     address ul {
        flex-direction: row;
+    }
+
+    .section-vision {
+        padding: 120px 0;
+    }
+
+    .vision-div {
+        height: 112px;
+        width: 100%;
+        background-color: #F4F4FD;
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
     }
 }

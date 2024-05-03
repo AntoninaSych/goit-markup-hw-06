@@ -676,6 +676,7 @@ display: none;
     row-gap: 72px;
     justify-content: center;
     align-items: center;
+    --items:1;
 }
 
 .customer-card {
