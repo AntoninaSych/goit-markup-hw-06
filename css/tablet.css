@@ -132,6 +132,7 @@
     .team-list {
         flex-direction: row;
         flex-wrap: wrap;
+        gap: 24px
     }
     .team-card-content {
         padding: 32px 0 32px 0;
