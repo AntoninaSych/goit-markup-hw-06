@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) {
     .container {
         min-width: 768px;
-        max-width: 100%;
+        max-width: 1157px;
     }
     .vision-div{
         display: none;
@@ -170,6 +170,7 @@
     .footer-wrapper {
         flex-direction: row;
         align-items: self-start;
+        flex-wrap: wrap;
         justify-content: left;
     }
 

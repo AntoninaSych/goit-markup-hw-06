@@ -13,11 +13,13 @@
 
     .section-vision {
         padding: 120px 0;
-    }
 
+    }
+    .vision{
+    gap: 24px;}
     .vision-div {
         height: 112px;
-        width: 100%;
+        width: 264px;
         background-color: #F4F4FD;
         position: relative;
         text-align: center;
