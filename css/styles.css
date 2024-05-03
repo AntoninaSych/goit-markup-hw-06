@@ -699,8 +699,9 @@ display: none;
 }
 
 .customer-card {
-    width: calc(100%-48px/3);
+    /*width: calc(100% - 48px/2); // 16*3=48*/
     height: 88px;
+    width: 168px;
 }
 
 .customer-card a:hover, .customer-card a:focus {
