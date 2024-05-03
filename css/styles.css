@@ -196,7 +196,9 @@ nav {
 .logo {
     display: block;
 }
-
+footer .logo{
+    text-align: center;
+}
 footer .logo span {
     color: #fff;
 }
@@ -410,7 +412,7 @@ button:focus {
     padding: 0 16px;
     min-width: 320px;
      /*width: 1158px;*/
-    flex-shrink: 0;
+    /*flex-shrink: 0;*/
 }
 
 header {
@@ -439,8 +441,8 @@ address{
     align-content: center;
     align-items: center;
     width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
+  /*padding-left: 16px;*/
+  /*padding-right: 16px;*/
 }
 .visio  > p {
     color: var(--SLATE, #434455);
@@ -456,6 +458,14 @@ address{
 .vision h3 {
     margin-bottom: 8px;
     text-align: center;
+//styleName: Header 2;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
 }
 
 .benefits {
@@ -463,7 +473,9 @@ display: none;
 }
 
 .section-benefits {
-    padding: 0 0 120px 0;
+    display: none;
+    padding: 0 0 96px 0;
+    /*padding: 0 0 120px 0;*/
 }
 .mobile-contact{
     margin-bottom: 0 auto;
@@ -531,6 +543,13 @@ display: none;
 
 .team-card-content h3 {
     margin-bottom: 8px;
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
 }
 
 footer {
@@ -680,7 +699,8 @@ display: none;
 }
 
 .customer-card {
-    width: 168px;
+    width: calc(100%-48px/3);
+    height: 88px;
 }
 
 .customer-card a:hover, .customer-card a:focus {
@@ -699,8 +719,10 @@ display: none;
     align-content: center;
     border: 1px solid var(--light-slate);
     fill: var(--light-slate);
-    height: 100%;
-    width: 100%;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    padding: 16px 40px;
+
     align-content: center;
     text-align: center;
 }
