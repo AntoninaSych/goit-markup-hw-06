@@ -1,9 +1,17 @@
 @media screen and (min-width: 1158px){
     .container{
         min-width: 1158px;
+        max-width: 100%;
     }
     .vision {
         display: flex;
         flex-direction: row!important;
+    }
+    .team-list .card {
+        margin-right: 24px;
+        width: calc((100%) / 4);
+    }
+    address ul {
+       flex-direction: row;
     }
 }
