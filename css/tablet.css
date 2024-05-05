@@ -192,9 +192,6 @@ gap:72px 24px;
     .footer-wrapper {
         gap: 72px 24px;
         padding-left: 108px;
-
-
-
     }
 
     .customers-wrapper{
@@ -209,6 +206,5 @@ gap:72px 24px;
         background-size: cover;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), url('../images/solutions/tablet.png');
-
     }
 }
