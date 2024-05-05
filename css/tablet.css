@@ -201,13 +201,18 @@
     }
 
     .footer-wrapper {
-        gap: 72px 24px;
-        padding-left: 108px;
+        /*gap: 72px 24px;*/
+        width: 584px;
+        margin: 0  auto;
+        /*padding-left: 108px;*/
     }
 
     .customers-wrapper {
         max-width: 552px;
-        margin-left: 108px;
+    }
+
+    .customers .container{
+width: 584px;
     }
 
     .solutions {
@@ -239,5 +244,17 @@
 
     nav .logo {
         margin-right: 76px
+    }
+
+    .footer-wrapper .logo{
+        margin-bottom: 16px ;
+        text-align: left ;
+    }
+    .footer-form button{
+        margin-top: -50px;
+        margin-left: 25px ;
+    }
+    .footer-email label{
+        text-align: left;
     }
 }
