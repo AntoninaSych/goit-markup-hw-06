@@ -4,6 +4,7 @@
     }
 
     nav .logo {
+        margin-right: 76px;
         /*margin-top: 25.5px;*/
     }
 
@@ -11,6 +12,7 @@
         margin-right: 24px;
         width: calc((100%) / 4);
     }
+
 
     address ul {
         flex-direction: row;
@@ -21,7 +23,7 @@
         height: 24px;
         top: 24px;
         left: 940px;
-        gap: 0px;
+        gap: 40px;
         opacity: 0px;
 
     }
@@ -35,7 +37,9 @@
         flex-wrap: nowrap;
         gap: 24px;
     }
-
+    .vision li{
+        gap:0px
+    }
     .vision-div {
         height: 112px;
         width: 264px;
@@ -46,14 +50,22 @@
         flex-direction: row !important;
         align-items: center;
         justify-content: center;
-        margin-bottom: 22px;
+        margin-bottom: 8px;
         border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .vision h3{
+
+
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+
     }
 
     .team-list {
-
         flex-wrap: nowrap;
-
     }
 
 
@@ -61,13 +73,13 @@
         max-width: 1158px;
         margin-left: 0px;
         margin: 0 auto;
+        flex-wrap: nowrap;
     }
 
     header .container nav {
         /* min-height: 80px; */
         /* display: flex; */
         align-items: center;
-
         /* width: 100%; */
         justify-content: left;
 
@@ -75,8 +87,7 @@
 
     .solutions {
         text-align: center;
-        /*padding: 188px 0;*/
-        padding: 72px 0;
+        padding: 188px 0;
         background-position: center;
         background-size: cover;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -85,9 +96,9 @@
     }
 
     .footer-wrapper{
-        gap: 120px;
+
         display: flex;
-        padding-left: 0px;
+width: 1124px;
         justify-content: left;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -110,5 +121,14 @@
         padding: 72px 24px 24px 24px;
     }
 
+.section-benefits{
+    display: flex;
+}
+    .benefits {
+        display: flex;
+    }
 
+    .team-list{
+        gap:24px;
+    }
 }
