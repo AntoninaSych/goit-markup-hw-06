@@ -201,5 +201,14 @@ gap:72px 24px;
         max-width: 552px;
         margin-left: 108px;
     }
+    .solutions {
+        text-align: center;
+        /*padding: 188px 0;*/
+        padding: 72px 0;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url('../images/solutions/tablet.png');
 
+    }
 }
