@@ -83,4 +83,16 @@
         rgba(46, 47, 66, 0.7)), url('../images/solutions/desktop.png');
 
     }
+
+    .footer-wrapper{
+        gap: 120px;
+        display: flex;
+        padding-left: 0px;
+        justify-content: left;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+    }
+
+
 }
