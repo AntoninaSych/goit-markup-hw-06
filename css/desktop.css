@@ -80,7 +80,7 @@
         background-position: center;
         background-size: cover;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),   image-set(url('../images/solutions/desktop.png') 1x, url('../images/solutions/desktop_@2x.jpg') 2x);
+        rgba(46, 47, 66, 0.7)),   -webkit-image-set(url('../images/solutions/desktop.png')1x, url('../images/solutions/desktop_@2x.jpg')2x);
 
     }
 

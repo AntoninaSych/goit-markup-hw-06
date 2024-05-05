@@ -205,6 +205,6 @@ gap:72px 24px;
         background-position: center;
         background-size: cover;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)), image-set(url('../images/solutions/tablet.png') 1x, url('../images/solutions/tablet_@2x.jpg') 2x);
+        rgba(46, 47, 66, 0.7)), -webkit-image-set(url('../images/solutions/tablet.png') 1x, url('../images/solutions/tablet_@2x.jpg') 2x);
     }
 }
