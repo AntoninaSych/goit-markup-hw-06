@@ -175,8 +175,9 @@ nav {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
-    margin-right: 76px;
+    /*margin-right: 76px;*/
     flex-wrap: wrap;
+
 }
 
 .logo span {
@@ -198,6 +199,7 @@ nav {
 }
 footer .logo{
     text-align: center;
+    margin-bottom: 15px;
 }
 footer .logo span {
     color: #fff;
@@ -637,10 +639,12 @@ display: none;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
+
     margin-bottom: 16px;
+    text-align: center;
 
 }
+
 
 .footer-wrapper {
 
@@ -842,8 +846,9 @@ display: none;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%) scale(1);
-    width: 408px;
-    min-height: 584px;
+    width: 90%;
+
+    margin-top: 96px 18px;
     background-color: var(--dairy);
     border-radius: 4px;
     opacity: 100%;
@@ -1109,11 +1114,8 @@ input[type='checkbox']:checked + .review-form-agreement-desc > .review-form-chec
 }
 
 .footer-email {
-    height: 40px;
     width: 100%;
-
     color: var(--cloud);
-    margin-right: 24px;
 }
 
 .footer-email input {
@@ -1163,8 +1165,8 @@ input[type='checkbox']:checked + .review-form-agreement-desc > .review-form-chec
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    text-align: left;
     color: var(--WHITE);
+    text-align: center;
 
 }
 .modal-field{
@@ -1213,12 +1215,14 @@ margin-bottom: 8px;
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
 }
 
 /*menu*/
 header .container nav{
-    min-height: 80px;
+    /*min-height: 80px;*/
     display: flex;
     align-items: center;
     width: 100%;
@@ -1286,18 +1290,23 @@ header .container nav{
     transform: translateX(0);
 }
 
+.menu-container{
+    padding-top: 72px;
+}
+
 .menu-container .menu-toggle {
     position: absolute;
     top: 16px;
     right: 16px;
     color: #fff;
 }
+.active{
+    color: var(--ocean)!important;
+}
 
 .mobile-menu {
     padding: 0;
     margin: 0;
-    padding-left: 20px;
-    padding-top: 80px;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -1331,3 +1340,4 @@ header .container nav{
 .menu-mobile-icon{
     fill: var(--navi-blue);
 }
+

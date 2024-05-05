@@ -207,4 +207,22 @@ gap:72px 24px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), -webkit-image-set(url('../images/solutions/tablet.png') 1x, url('../images/solutions/tablet_@2x.jpg') 2x);
     }
+
+    .modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%) scale(1);
+        width: 408px;
+        min-height: 584px;
+        background-color: var(--dairy);
+        border-radius: 4px;
+        opacity: 100%;
+        transition-duration: 300ms;
+        transition-timing-function: cubic-bezier(0.42, 0, 0.21, 1.5);
+        transition-property: transform, opacity;
+        transition-delay: 600ms;
+        padding: 72px 24px 24px 24px;
+    }
+
 }
